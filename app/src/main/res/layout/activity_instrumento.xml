@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Instrumento"
+    android:background="@drawable/fondo">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUITARIST MELODY"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="326dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:onClick="btn_gui"
+            app:srcCompat="@drawable/guitarra" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:onClick="btn_bajo"
+            app:srcCompat="@drawable/bajo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/guardados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="guardados"
+        android:textSize="40dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_guardar"/>
+
+</LinearLayout>
