@@ -104,7 +104,7 @@ public class dibujado extends AppCompatActivity {
         ImageView miImageView = new ImageView(getApplicationContext());
 
         //Agrega imagen al ImageView.
-        miImageView.setImageResource(R.drawable.fa);
+        miImageView.setImageResource(R.drawable.ifa);
 
         //Agrega vistas al contenedor.
         contenedor.addView(miImageView);
