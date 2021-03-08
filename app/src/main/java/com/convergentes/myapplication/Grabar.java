@@ -70,8 +70,6 @@ public class Grabar extends AppCompatActivity {
                 public void onFinish() {
                     dos.setText("GRABANDO");
 
-
-
                     if(grabacion == null){
                         archivoSalida = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Grabacion.mp3";
                         grabacion = new MediaRecorder();
@@ -125,6 +123,13 @@ public class Grabar extends AppCompatActivity {
     }
 
     public void btn_siguiente(View view) {
-        Log.d("TAG", "btn_detener: ");
+        Log.d("TAG", "btn_Siguiente: ");
     }
+
+    private static final String TAG = "ZeroCrossing.java";
+
+    /**
+     * calculate frequency using zero crossings
+     */
+
 }
